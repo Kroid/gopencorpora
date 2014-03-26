@@ -3,7 +3,7 @@ gopencorpora
 
 Parsed .xml dictionary from opencorpora.org
 
-example xml file:
+example xml file (opencorpora-dict.xml):
 
 ```xml
 <dictionary version="0.8" revision="403605">
@@ -44,4 +44,11 @@ if err = dict.Parse(file); err != nil {
 }
 
 fmt.Printf("%s\n", dict)
+```
+
+
+
+for correct work remove <xml> tag (first row), example:
+```xml
+<?xml version="1.0" encoding="utf8" standalone="yes"?>
 ```
