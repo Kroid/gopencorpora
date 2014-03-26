@@ -48,7 +48,7 @@ fmt.Printf("%s\n", dict)
 
 
 
-for correct work remove <xml> tag (first row), example:
+for correct work remove xml tag from file (first row), example:
 ```xml
 <?xml version="1.0" encoding="utf8" standalone="yes"?>
 ```
